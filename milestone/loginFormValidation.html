@@ -1,0 +1,59 @@
+
+ <!-- Answer 19. -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Login Form Validation</title>
+     <style>
+         #error-message {
+             color: red;
+         }
+
+         #success-message {
+             color: green;
+         }
+     </style>
+ </head>
+ <body>
+
+ <form id="login-form">
+     <label for="email">Email:</label>
+     <input type="text" id="email" name="email" required>
+
+     <br>
+
+     <label for="password">Password:</label>
+     <input type="password" id="password" name="password" required>
+
+     <br>
+
+     <button type="button" onclick="validateForm()">Submit</button>
+ </form>
+
+ <p id="error-message"></p>
+ <p id="success-message"></p>
+
+ <script>
+     function validateForm() {
+         const email = document.getElementById("email").value;
+         const password = document.getElementById("password").value;
+
+         if (email.includes("@") && password.length >= 8) {
+             document.getElementById("error-message").innerText = "";
+             document.getElementById("success-message").innerText = "Valid email and password!";
+             document.getElementById("success-message").style.display = "block";
+             document.getElementById("error-message").style.display = "none";
+         } else {
+             document.getElementById("success-message").innerText = "";
+             document.getElementById("error-message").innerText = "Invalid email or password!";
+             document.getElementById("error-message").style.display = "block";
+             document.getElementById("success-message").style.display = "none";
+         }
+     }
+ </script>
+
+ </body>
+ </html>
+

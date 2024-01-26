@@ -1,0 +1,29 @@
+
+ <!--  Answer 18. -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Change Text on Button Click</title>
+ </head>
+ <body>
+
+ <h1 id="heading">The most affordable learning platform</h1>
+ <button onclick="toggleHeading()">Toggle Text</button>
+
+ <script>
+     function toggleHeading() {
+         const heading = document.getElementById("heading");
+         const currentText = heading.innerText;
+
+         if (currentText === "The most affordable learning platform") {
+             heading.innerText = "PW Skills";
+         } else {
+             heading.innerText = "The most affordable learning platform";
+         }
+     }
+ </script>
+
+ </body>
+ </html>

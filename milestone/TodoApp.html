@@ -1,0 +1,81 @@
+
+ 21.
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>TODO App</title>
+     <style>
+         body {
+             font-family: Arial, sans-serif;
+         }
+
+         #todo-container {
+             max-width: 400px;
+             margin: 20px auto;
+         }
+
+         #todo-list {
+             list-style: none;
+             padding: 0;
+         }
+
+         .todo-item {
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             border: 1px solid #ddd;
+             padding: 10px;
+             margin-bottom: 8px;
+             background-color: #fff;
+         }
+
+         .todo-item button {
+             background-color: #dc3545;
+             color: #fff;
+             border: none;
+             padding: 5px 10px;
+             cursor: pointer;
+         }
+     </style>
+ </head>
+ <body>
+
+ <div id="todo-container">
+     <h2>TODO App</h2>
+     <input type="text" id="todo-input" placeholder="Add a new TODO">
+     <button onclick="addTodo()">Add TODO</button>
+     <ul id="todo-list"></ul>
+ </div>
+
+ <script>
+     function addTodo() {
+         const todoInput = document.getElementById("todo-input");
+         const todoList = document.getElementById("todo-list");
+
+         const newTodoText = todoInput.value.trim();
+
+         if (newTodoText !== "") {
+             const newTodoItem = document.createElement("li");
+             newTodoItem.className = "todo-item";
+             newTodoItem.innerHTML = `
+                 <span>${newTodoText}</span>
+                 <button onclick="removeTodo(this)">Remove</button>
+             `;
+
+             todoList.appendChild(newTodoItem);
+
+             todoInput.value = "";
+         }
+     }
+
+     function removeTodo(button) {
+         const todoItem = button.closest(".todo-item");
+         todoItem.remove();
+     }
+ </script>
+
+ </body>
+ </html>
+

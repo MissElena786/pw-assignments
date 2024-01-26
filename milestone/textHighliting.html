@@ -1,0 +1,48 @@
+
+ 24.
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Text Highlighting</title>
+     <style>
+         body {
+             font-family: Arial, sans-serif;
+         }
+
+         .highlighted {
+             background-color: yellow;
+         }
+     </style>
+ </head>
+ <body>
+
+ <p id="text-paragraph">
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ </p>
+
+ <script>
+     document.addEventListener("DOMContentLoaded", function() {
+         highlightWords();
+     });
+
+     function highlightWords() {
+         const paragraph = document.getElementById("text-paragraph");
+         const words = paragraph.innerText.split(" ");
+
+         words.forEach(function(word) {
+             if (word.length > 8) {
+                 const span = document.createElement("span");
+                 span.textContent = word;
+                 span.classList.add("highlighted");
+
+                 paragraph.innerHTML = paragraph.innerHTML.replace(word, span.outerHTML);
+             }
+         });
+     }
+ </script>
+
+ </body>
+ </html>
