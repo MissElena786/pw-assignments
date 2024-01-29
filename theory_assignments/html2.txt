@@ -1,0 +1,63 @@
+1.Explain the table and its properties:
+A table in HTML is created using the <table> element. It is used to organize data into rows and columns. Key properties include:
+
+<tr>: Defines a table row.
+<td>: Represents a table data/cell.
+<th>: Represents a table header cell.
+colspan and rowspan: Attributes to specify how many columns or rows a cell should span.
+Example:
+
+html
+<table>
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+</table>
+
+
+2.Explain all Media elements and how they work:
+Media elements in HTML include <img> for images, <audio> for audio files, and <video> for video files. They work by specifying the source (src) attribute to link to the media file. Example:
+
+html
+<img src="image.jpg" alt="Description">
+<audio controls>
+  <source src="audio.mp3" type="audio/mp3">
+  Your browser does not support the audio tag.
+</audio>
+<video width="320" height="240" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+3.What are Get and Post in Form:
+GET and POST are two HTTP methods used when submitting HTML forms.
+
+GET: Appends form data to the URL in the form of query parameters. Suitable for less sensitive information. Visible in the URL.
+POST: Sends form data in the body of the HTTP request. Suitable for sensitive or large amounts of data. Not visible in the URL.
+
+
+4. List all the input types we have in forms:
+Common input types in HTML forms include:
+
+text: Single-line text input.
+password: Password input.
+radio: Radio buttons for selecting one option from a group.
+checkbox: Checkboxes for selecting multiple options.
+submit: Button to submit the form.
+file: File input for uploading files.
+select: Dropdown menu for selecting from a list.
+textarea: Multiline text input.
+Example:
+
+html
+<form>
+  <input type="text" name="username" placeholder="Username">
+  <input type="password" name="password" placeholder="Password">
+  <input type="submit" value="Submit">
+</form>

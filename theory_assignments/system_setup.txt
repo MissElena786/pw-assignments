@@ -1,0 +1,22 @@
+1.List all the tools you might use as a web developer:
+Web developers use a variety of tools to design, develop, and maintain websites. Some common tools include:
+
+Text editors or Integrated Development Environments (IDEs) like Visual Studio Code, Sublime Text, or Atom.
+Version control systems such as Git for tracking changes in code.
+Web browsers like Chrome, Firefox, or Safari for testing and debugging.
+Graphic design tools like Adobe Photoshop or Sketch for creating website visuals.
+Frameworks and libraries such as React, Angular, or jQuery to streamline development.
+Package managers like npm or yarn for managing dependencies.
+Command-line tools for tasks like task automation, server management, and more.
+
+
+2.What are some features of PW Skills Online Lb? Explain how they are useful:
+It appears that there might be a typo or a specific service named "PW Skills Online Lb" isn't clear from your question. If you provide more details or correct the name, I can offer a more accurate response.
+
+However, if you are referring to a generic "PW Skills Online Lab," online labs for web development could potentially provide features such as:
+
+Virtual environments for practicing coding without the need for local installations.
+Real-world coding scenarios to apply and test skills.
+Instant feedback and assessments for continuous learning.
+Collaboration features for working on projects with peers.
+Access to a variety of web development tools and technologies in a controlled environment.

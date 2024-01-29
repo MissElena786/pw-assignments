@@ -1,0 +1,19 @@
+1. What is an Internet? Explain in your own words:
+The Internet is a global network of connected computers that allows the exchange of information and communication. It encompasses a vast array of services, websites, and resources, facilitating the sharing of data, knowledge, and multimedia content across the world.
+
+
+
+2. What is a web browser? Explain in your own words:
+A web browser is a software application that enables users to access and navigate the World Wide Web. It interprets and displays web content, such as text, images, and multimedia, allowing users to interact with websites. Examples of web browsers include Chrome, Firefox, Safari, and Edge.
+
+
+3. What is a browser engine? Explain in your own words:
+A browser engine is a crucial component of a web browser responsible for rendering and displaying web pages. It interprets the HTML, CSS, and JavaScript code of a webpage, translating it into the visual elements users see. Different browsers may use different engines, like Blink (Chrome and Edge) or Gecko (Firefox).
+
+
+4.What is a static site? Explain in your own words:
+A static site is a type of website that delivers fixed content to users. The content does not change dynamically based on user interactions; instead, it remains the same for all visitors. Static sites are typically simpler and faster but may lack some interactive features found in dynamic sites.
+
+
+5. What is a dynamic site? Explain in your own words:
+A dynamic site is a type of website that can change its content and appearance based on user interactions or data input. These sites often use server-side technologies to generate content on the fly. Dynamic sites are more interactive, allowing for features like user logins, personalized content, and real-time updates. Examples include social media platforms and online shopping websites.

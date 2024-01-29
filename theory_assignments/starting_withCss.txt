@@ -1,0 +1,31 @@
+1.Why are CSS selectors used in HTML?
+
+CSS selectors are used in HTML to target and style specific elements. They define patterns to select one or more HTML elements based on their type, class, ID, attributes, or relationship to other elements. By using CSS selectors, developers can apply styles to specific parts of their HTML documents, achieving a desired layout and design.
+
+2.What are the different types of selectors in CSS?
+
+Type Selectors: Select elements based on their type. For example, p selects all <p> elements.
+Class Selectors: Select elements with a specific class attribute. For example, .example selects all elements with class="example".
+ID Selectors: Select a single element with a specific ID attribute. For example, #header selects the element with id="header".
+Attribute Selectors: Select elements based on their attributes. For example, [type="text"] selects all elements with type="text".
+Descendant Selectors: Select elements that are descendants of another element. For example, div p selects all <p> elements inside a <div>.
+Child Selectors: Select direct children of an element. For example, ul > li selects all <li> elements that are direct children of a <ul>.
+Pseudo-classes: Select elements based on their state or position. For example, :hover selects an element when the user hovers over it.
+
+
+3.How do you include external fonts and apply them?
+
+To include external fonts in a web page, you can use the @font-face rule in your CSS. This rule allows you to specify a custom font file and give it a name that you can use in your styles.
+Example:
+
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('path/to/custom-font.woff2') format('woff2');
+  /* Add additional formats for compatibility */
+}
+
+body {
+  font-family: 'CustomFont', sans-serif;
+}
+In this example, a custom font is defined using @font-face, and then it's applied to the body element using the font-family property. Make sure to replace the placeholder 'path/to/custom-font.woff2' with the actual path to your font file, and adjust the formats accordingly for cross-browser compatibility.

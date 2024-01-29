@@ -1,0 +1,72 @@
+1. What is a Database? Explain with an example on why should we need a database.
+
+A database is a structured collection of data that is organized and accessible in various ways. It allows for efficient storage, retrieval, and manipulation of data. Databases are essential for managing large amounts of information and ensuring data integrity.
+
+Example: Consider a company that needs to store information about its employees, such as names, addresses, and salary details. Using a database, the company can organize and retrieve this data easily, run queries to find specific information, and maintain a centralized and consistent record of employee details.
+/////////////////////
+
+
+2. Write a short note on File-Based Storage System. Explain the major challenges of a File-Based Storage System.
+
+File-Based Storage Systems store data in files, each containing records with fields of information. However, they lack the organizational structure and query capabilities of databases.
+
+Challenges of File-Based Storage Systems:
+
+Data Redundancy: Information may be duplicated across multiple files.
+Data Inconsistency: Changes in one file may not be reflected in others.
+Limited Query Capabilities: Difficulties in searching and extracting specific data.
+Lack of Data Integrity: No mechanisms to enforce data validity and accuracy.
+/////////////////////////
+
+
+3. What is DBMS? What was the need for DBMS?
+DBMS (Database Management System) is software that provides an interface to interact with databases, managing their creation, maintenance, and usage.
+
+Need for DBMS:
+
+Data Integrity: Ensures data accuracy and consistency.
+Data Security: Controls access to sensitive information.
+Data Independence: Separates application logic from data storage.
+Concurrent Access: Allows multiple users to access the database simultaneously.
+//////////////////////////////////
+
+4.Explain challenges of File-Based Storage System which was tackled by DBMS.
+
+DBMS addresses challenges like data redundancy, inconsistency, limited query capabilities, and lack of data integrity by providing a centralized, organized, and controlled environment for data storage and retrieval.
+//////////////////////
+
+5. List out the different types of classification in DBMS and explain them in depth.
+
+Types of Classification in DBMS:
+
+Hierarchical: Organizes data in a tree-like structure.
+Network: Represents data as records connected in a network.
+Relational: Utilizes tables to store and relate data.
+Object-Oriented: Represents data as objects with attributes and methods.
+Explanation: Each classification method has its own advantages and use cases. For example, relational databases are widely used due to their simplicity and flexibility.
+//////////////////////////
+
+6. What is the significance of Data Modeling and explain the types of data modeling.
+
+Data Modeling is the process of defining and organizing data to understand its structure and relationships.
+
+Types of Data Modeling:
+
+Conceptual Modeling: Represents high-level concepts and relationships.
+Logical Modeling: Describes data using specific data models (e.g., ER diagrams).
+Physical Modeling: Involves implementation details like tables and columns in a database.
+//////////////////////////
+
+
+7. Explain 3-schema architecture along with its advantages.
+
+The 3-schema architecture consists of three levels: the user schema, logical schema, and physical schema.
+
+User Schema: Describes how users perceive the data.
+Logical Schema: Represents the database's logical structure.
+Physical Schema: Defines how data is stored and accessed physically.
+Advantages:
+
+Data Independence: Changes in one schema level do not affect the others.
+Security and Privacy: Different users can have different views of the data.
+Simplicity: Separation of concerns makes the system more manageable and scalable.

@@ -1,0 +1,21 @@
+git command
+
+git init
+git add .
+git status
+git branch -M (branch name)
+example : git branch -M main
+git remote add origin (url)
+git commit -m "message"
+git push -u -f origin master
+
+update changes 
+
+git add .
+git commit -m "message"
+git push origin (branch name)
+git push origin master
+
+
+
+bhanu sir account link : https://github.com/Tech2023Com/July-React-Redux

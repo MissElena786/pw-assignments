@@ -1,0 +1,68 @@
+1.What is CSS and why use it?
+
+CSS (Cascading Style Sheets): CSS is a styling language used to describe the presentation of a document written in HTML or XML. It enables web developers to control the layout, design, and appearance of web pages, ensuring consistency and enhancing the visual aspects of a website.
+
+
+
+.Why Use CSS:
+
+Separation of Concerns: CSS allows for the separation of content (HTML) from presentation (CSS), making the code more modular and maintainable.
+Consistency: CSS helps maintain a consistent look and feel across multiple pages of a website.
+Responsiveness: It facilitates the creation of responsive designs that adapt to different screen sizes and devices.
+Flexibility: CSS provides a range of styling options, including colors, fonts, spacing, and positioning, allowing for creative and diverse designs.
+
+
+2.Different ways to bring CSS into an HTML file:
+
+Inline Styles: Applying styles directly within HTML tags using the style attribute. For example:
+
+<p style="color: red;">This is a red paragraph.</p>
+Internal Styles: Including CSS within the <style> element in the HTML file's <head> section. For example:
+
+
+<head>
+  <style>
+    p {
+      color: blue;
+    }
+  </style>
+</head>
+External Styles: Linking to an external CSS file using the <link> element in the HTML file's <head> section. For example:
+
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+Using an external CSS file is a common practice as it promotes better organization, reusability, and easier maintenance.
+
+
+3. What do you mean by specificity in CSS?
+
+Specificity: In CSS, specificity is a set of rules that determines which style declarations are applied to an element. It helps browsers decide which styles to prioritize when there are conflicting rules. Specificity is based on the combination of selectors used in the CSS rules.
+
+Hierarchy of Specificity:
+
+Inline styles have the highest specificity.
+ID selectors have higher specificity than class selectors or element selectors.
+Combining selectors increases specificity (e.g., div p is more specific than just p).
+Specificity is calculated in terms of thousands, hundreds, tens, and units.
+Example:
+
+css
+
+/* Higher Specificity */
+#header {
+  color: red;
+}
+
+/* Lower Specificity */
+div p {
+  color: blue;
+}
+In this example, the #header rule has higher specificity than the div p rule, so the text color of an element with the ID "header" will be red. Understanding specificity is crucial for resolving styling conflicts and applying styles accurately.
+
+
+
+
+
+

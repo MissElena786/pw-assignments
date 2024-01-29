@@ -1,0 +1,68 @@
+1.What is padding and margin, and when do you use them?
+
+Padding: Padding is the space between the content of an element and its border. It is defined using the padding property in CSS. Padding adds space within the element, pushing the content away from the borders.
+
+Example:
+div {
+  padding: 10px;
+}
+Margin: Margin is the space outside an element, affecting the space between the element's border and surrounding elements. It is defined using the margin property in CSS. Margin creates space between the element and its adjacent elements.
+
+Example:
+
+css
+Copy code
+div {
+  margin: 10px;
+}
+When to Use Them:
+
+Use padding to create space within an element.
+Use margin to create space outside an element, affecting its relationship with neighboring elements.
+
+
+2.What is the display property, and explain display: inline, display: block, and display: inline-block:
+
+Display Property: The display property in CSS determines the type of box used for an HTML element. It influences the layout and positioning of the element.
+
+display: inline: An inline element does not start on a new line and only takes up as much width as necessary. Examples include <span> and <a>.
+
+display: block: A block-level element starts on a new line and takes up the full width available. Examples include <div>, <p>, and <h1>.
+
+display: inline-block: Combines features of both inline and block elements. It starts on the same line as the content around it but can have width and height properties. It doesn't start on a new line and only takes up as much width as necessary.
+
+Example:
+.example-inline {
+  display: inline;
+}
+
+.example-block {
+  display: block;
+}
+
+.example-inline-block {
+  display: inline-block;
+}
+
+
+3.Explain min-height, min-width, max-height, and max-width in CSS:
+
+min-height: Specifies the minimum height an element should have. It ensures that the element will not shrink below this specified height, even if its content is smaller.
+
+min-width: Specifies the minimum width an element should have. It ensures that the element will not shrink below this specified width, even if its content is narrower.
+
+max-height: Specifies the maximum height an element should have. It prevents the element from expanding beyond this specified height.
+
+max-width: Specifies the maximum width an element should have. It prevents the element from expanding beyond this specified width.
+
+Examples:
+
+css
+
+.example {
+  min-height: 100px;
+  min-width: 200px;
+  max-height: 300px;
+  max-width: 500px;
+}
+In this example, the element will have a minimum height of 100 pixels, a minimum width of 200 pixels, a maximum height of 300 pixels, and a maximum width of 500 pixels. These properties are useful for controlling the size constraints of elements on a webpage.

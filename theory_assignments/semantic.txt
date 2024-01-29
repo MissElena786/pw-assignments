@@ -1,0 +1,32 @@
+1.What are the new things introduced in HTML5?
+HTML5 introduced several new features and improvements, including:
+
+Semantic Elements: New semantic elements like <header>, <footer>, <nav>, <article>, <section>, <aside>, and <main> for better structuring of web content.
+New Form Input Types: Such as <input type="date">, <input type="email">, <input type="url">, providing more input options.
+New Attributes: Additional attributes like placeholder, required, and autofocus for form elements.
+Canvas and SVG: Native support for drawing graphics on the web using the <canvas> element and scalable vector graphics (SVG).
+Audio and Video Elements: <audio> and <video> elements for embedding media content without relying on plugins.
+Local Storage: The localStorage and sessionStorage APIs for storing data locally on the user's browser.
+WebSockets: A communication protocol that enables real-time, bidirectional communication between the client and the server.
+Geolocation API: Allows websites to request and obtain the user's geographical location.
+
+
+2.What are semantic tags? Give a couple of examples:
+Semantic tags in HTML are elements that carry meaning about the structure and content of a webpage. They improve the document's readability for both developers and browsers. Examples include:
+
+<header>: Represents the header of a section or a page.
+<footer>: Represents the footer of a section or a page.
+<nav>: Defines a navigation menu.
+<article>: Represents an independent, self-contained piece of content.
+<section>: Defines a section in a document.
+<aside>: Represents content that is tangentially related to the content around it.
+<main>: Represents the main content of the document.
+
+
+3.List some uses of semantic tags:
+
+Improved SEO: Search engines use semantic tags to better understand the structure and content of a webpage, potentially improving search rankings.
+Accessibility: Semantic tags assist screen readers and other assistive technologies in interpreting and presenting content to users with disabilities.
+Maintainability: Semantic tags make the code more readable and understandable, which helps in maintaining and updating websites.
+Consistency: They provide a standardized way of structuring content, promoting consistency in web development practices.
+Future-Proofing: As new technologies and browsers emerge, semantic HTML is more likely to be correctly interpreted, ensuring a longer lifespan for web content.

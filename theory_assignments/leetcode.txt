@@ -1,0 +1,14 @@
+leetcode Questions 
+
+https://leetcode.com/problems/sort-colors/description/
+
+https://leetcode.com/problems/rotate-array/description/
+
+2-D Array
+https://leetcode.com/problems/matrix-diagonal-sum/description/
+
+https://leetcode.com/problems/powx-n/description/
+
+strings 
+
+https://leetcode.com/problems/reverse-string/description/

@@ -1,0 +1,31 @@
+1.What are inline and block elements in HTML, and what is the difference between them?
+
+Inline Elements: Inline elements are those that only take up as much width as necessary and do not start on a new line. Examples include <span>, <a>, <strong>.
+Block Elements: Block elements, on the other hand, take up the full width available and start on a new line. Examples include <div>, <p>, <h1>.
+The primary difference is in their behavior regarding layout and positioning on the web page.
+
+2.How to work with images in HTML and explain the idea <img/> tag is important in various scenarios?
+
+To work with images in HTML, you use the <img> tag. For example: <img src="image.jpg" alt="Description">.
+The <img> tag is essential for displaying images on web pages. The src attribute specifies the source (URL or file path) of the image, and the alt attribute provides alternative text for accessibility and SEO purposes. Images enhance the visual appeal of a webpage and are crucial for conveying information effectively.
+
+
+3.How to create lists in HTML?
+
+HTML supports both ordered lists (<ol>) and unordered lists (<ul>), each containing list items (<li>). For example:
+html
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+This creates an unordered list with three items.
+
+
+4.How to hyperlink web pages and navigate people to other websites?
+
+To create hyperlinks in HTML, you use the <a> (anchor) tag. For example:
+html
+<a href="https://example.com">Visit Example Website</a>
+The href attribute contains the URL to which the link points. Clicking on the link will navigate users to the specified website. Internal links can also be created to navigate within the same webpage or site.

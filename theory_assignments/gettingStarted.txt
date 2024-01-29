@@ -1,0 +1,19 @@
+1.Why do we start learning a programming language with "Hello World!"?
+The "Hello World!" program is a simple introductory program that is often the first thing beginners write in a new programming language. It is a basic program that outputs the phrase "Hello, World!" to the screen. This tradition serves as a way for beginners to become familiar with the syntax and structure of a programming language, ensuring that their development environment is set up correctly. It's a straightforward exercise that helps individuals grasp the fundamental concepts of writing, compiling, and executing code in a new language.
+
+
+2.How is the use of comments, and how do you write comments in HTML?
+Comments in programming serve as annotations within the code that are ignored during execution. In HTML, you can write comments using the following syntax:
+
+html
+<!-- This is a comment in HTML -->
+Anything between <!-- and --> will be treated as a comment and won't be displayed on the webpage. Comments are useful for explaining code, making notes, or temporarily excluding code from execution.
+
+
+3.What are elements, tags, and attributes, and what is the difference between them?
+
+Elements: In HTML, elements are the building blocks of a webpage. They consist of tags and content and represent the structure of a document. For example, <p>Hello</p> is a paragraph element.
+Tags: Tags are the HTML markup used to define elements. They come in pairs – an opening tag and a closing tag. The opening tag begins the element, and the closing tag ends it. For instance, <p> is an opening tag, and </p> is a closing tag for a paragraph.
+Attributes: Attributes provide additional information about HTML elements. They are always included in the opening tag and are usually in name/value pairs. For example, in <a href="https://example.com">Click here</a>, "href" is an attribute that defines the hyperlink's destination.
+Briefly explain what HTML entities are:
+HTML entities are special codes used to represent characters that have a specific meaning in HTML or characters that might not be easily typable on a keyboard. For example, &lt; represents the less-than sign ("<"), and &amp; represents the ampersand ("&"). HTML entities are essential for displaying reserved characters correctly in web pages without conflicting with the HTML markup.
